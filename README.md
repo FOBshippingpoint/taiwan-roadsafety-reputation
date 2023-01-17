@@ -33,9 +33,9 @@ https://github.com/AshKyd/geojson-regions
 
 # collecting reputation data
 
-[[爆卦] 美英澳加日政府:台灣旅遊須知 交通安全篇 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1670471598.A.F23.html)
-[[問卦] 日本人：台灣交通超爛，想去觀光前應三思 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1637150397.A.2AF.html)
-[[爆卦] 歐洲國民：台灣旅遊須知 交通安全篇 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1637150397.A.2AF.html)
+- [[爆卦] 美英澳加日政府:台灣旅遊須知 交通安全篇 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1670471598.A.F23.html)
+- [[問卦] 日本人：台灣交通超爛，想去觀光前應三思 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1637150397.A.2AF.html)
+- [[爆卦] 歐洲國民：台灣旅遊須知 交通安全篇 - 看板 Gossiping - 批踢踢實業坊](https://www.ptt.cc/bbs/Gossiping/M.1637150397.A.2AF.html)
 
 ~~以 ISO_A3 為標準（3 碼）~~
 以 ADM0_A3 為標準，see [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
@@ -56,4 +56,5 @@ death_rate: WHO交通事故死亡率
 # Other
 
 法國不知道為什麼 geojson 的 ISO_A3 是-99，挪威也是
+
 或許要用 ADM0_A3？
