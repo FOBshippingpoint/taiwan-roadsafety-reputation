@@ -1,5 +1,4 @@
 <script>
-	import L from 'leaflet';
 	import { onMount } from 'svelte';
 	import countries from '$lib/assets/countries.geo.json';
 	import reputation from '$lib/assets/reputation.json';
@@ -12,7 +11,8 @@
 		}
 	}
 
-	onMount(() => {
+	onMount(async () => {
+    const L = await import('leaflet')
 		const map = L.map('map').setView([24.9546286, 121.1913004], 3);
 
 		const info = L.control();
