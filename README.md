@@ -15,9 +15,9 @@ Leaflet 製作的互動式世界地圖，蒐羅世界各國對於台灣交通安
 - [x] reputation data creator (toJSON) in python
 - [x] 決定地圖上的顏色代表什麼，reputation or death_rate
 - [x] 決定資訊要放在在 popcontent or custom control
+- [x] 字太多怎麼辦？好像沒有 scrollbar
 - [ ] 增加各國的對台交通資訊，目前只有加拿大、美國、澳洲、日本
 - [ ] 增進翻譯品質，目前統一由 Google 翻譯
-- [ ] 字太多怎麼辦？好像沒有 scrollbar
 - [ ] 美化 leaflet custom control 區塊(div.info)
 - [ ] 決定要不要繼續用 sveltekit，現階段根本沒用到
 
