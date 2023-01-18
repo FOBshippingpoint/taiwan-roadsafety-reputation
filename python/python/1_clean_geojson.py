@@ -1,6 +1,8 @@
 from pathlib import Path
 import json
 
+print('start: 1_clean_geojson')
+
 data_path = Path('../data')
 
 # Keep geometry and country NAME_ZHT, ADMO_A3 only
@@ -15,3 +17,5 @@ geojson['features'] = [item for item in geojson['features'] if item['properties'
 
 with open(data_path / 'countries.geo.json', 'w', encoding='utf-8') as f:
     json.dump(geojson, f, indent=4, ensure_ascii=False)
+
+print('done')

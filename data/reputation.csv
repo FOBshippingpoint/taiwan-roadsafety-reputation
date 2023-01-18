@@ -1,0 +1,238 @@
+,ADM0_A3,deathRate,country,reputation,originalText,translatedText,reference
+0,ATG,0.0,,,,,
+1,FSM,0.16,,,,,
+2,MDV,1.63,,,,,
+3,KIR,1.92,,,,,
+4,EGY,10.1,,,,,
+5,UKR,10.2,,,,,
+6,ROU,10.29,,,,,
+7,OMN,10.59,,,,,
+8,SYC,11.26,,,,,
+9,IDN,11.33,,,,,
+10,UZB,11.68,,,,,
+11,ALB,11.7,,,,,
+12,TLS,11.9,,,,,
+13,RUS,12.0,俄羅斯,,"Правостороннее. Имеет в основном организованный и упорядоченный характер.
+Случаи ДТП с тяжелыми последствиями редки.
+Много мотоциклистов с хаотичным и резким стилем вождения.
+На Тайване запрещена эксплуатация автомобилей с правым рулем.","右手。 它大多是有組織和有序的。
+造成嚴重後果的事故很少見。
+許多摩托車手的駕駛風格混亂而突然。
+在台灣，右駕車輛是被禁止的。",https://www.kdmid.ru/docs/taiwan/information-about-the-country/
+14,PHL,12.04,,,,,
+15,MUS,12.23,,,,,
+16,GEO,12.41,,,,,
+17,PNG,12.59,,,,,
+18,KGZ,12.66,,,,,
+19,USA,12.67,美國,,"Road Conditions and Safety: Road conditions, lighting, and traffic safety in cities and on major highways are generally good. Roads in major cities are generally congested. Be alert for the many scooters and motorcycles that weave in and out of traffic. Motor scooters are common throughout the island. Be alert for scooters when stepping out of public buses or exiting a car. Exercise caution when crossing streets because many drivers do not respect the pedestrian's right of way. Be especially cautious when driving on mountain roads, which are typically narrow, winding, and poorly banked, and which may be impassable after heavy rains. For example, Taiwan’s central cross-island highway is meandering and often has poor visibility. Exercise caution when driving on highways.
+Public Transportation: Public transportation is cheap, convenient, and generally safe. Taxis and buses may swerve to the side of the road to pick up passengers with little notice or regard for other vehicles.","道路狀況和安全：城市和主要高速公路的道路狀況、照明和交通安全通常都很好。 大城市的道路普遍擁堵。 警惕穿梭在車流中的許多踏板車和摩托車。 小型摩托車在整個島上都很常見。 走出公共汽車或離開汽車時，請注意踏板車。 過馬路時要小心，因為許多司機不尊重行人的通行權。 在山路上行駛時要特別小心，這些道路通常狹窄、曲折、坡度不佳，大雨過後可能無法通行。 例如，台灣的中部跨島公路蜿蜒曲折，經常能見度很差。 在高速公路上行駛時要小心。
+公共交通：公共交通便宜、方便，而且通常很安全。 出租車和公共汽車可能會突然轉向路邊接載乘客，而幾乎沒有註意到或不理會其他車輛。",https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Taiwan.html
+20,KAZ,12.68,,,,,
+21,MEX,12.78,,,,,
+22,PAK,13.01,,,,,
+23,WSM,13.03,,,,,
+24,TKM,13.47,,,,,
+25,BIH,13.51,,,,,
+26,FJI,13.51,,,,,
+27,PER,13.58,,,,,
+28,PAN,13.92,,,,,
+29,ARG,14.06,,,,,
+30,CRI,14.78,,,,,
+31,URY,14.78,,,,,
+32,VUT,14.86,,,,,
+33,CHL,14.91,,,,,
+34,SYR,14.94,,,,,
+35,JAM,15.06,,,,,
+36,SUR,15.32,,,,,
+37,BGD,15.35,,,,,
+38,COL,15.42,,,,,
+39,KWT,15.43,,,,,
+40,IND,15.56,,,,,
+41,TJK,15.67,,,,,
+42,AFG,15.86,,,,,
+43,BRA,16.05,,,,,
+44,HND,16.13,,,,,
+45,BTN,16.18,,,,,
+46,NPL,16.27,,,,,
+47,LBN,16.44,,,,,
+48,TUN,16.49,,,,,
+49,SLB,16.52,,,,,
+50,NIC,16.94,,,,,
+51,MAR,16.96,,,,,
+52,JOR,17.0,,,,,
+53,CHN,17.36,,,,,
+54,LAO,17.87,,,,,
+55,HTI,18.77,,,,,
+56,KHM,19.55,,,,,
+57,LKA,19.69,,,,,
+58,ARM,19.95,,,,,
+59,ISL,2.05,,,,,
+60,SGP,2.09,,,,,
+61,NOR,2.12,,,,,
+62,CHE,2.25,,,,,
+63,ECU,20.09,,,,,
+64,MMR,20.36,,,,,
+65,ZMB,20.46,,,,,
+66,NGA,20.75,,,,,
+67,SLV,20.87,,,,,
+68,DZA,20.9,,,,,
+69,MNG,21.04,,,,,
+70,BOL,21.11,,,,,
+71,LBY,21.3,,,,,
+72,IRN,21.47,,,,,
+73,PRY,22.03,,,,,
+74,ZAF,22.22,,,,,
+75,GUY,22.34,,,,,
+76,MYS,22.48,,,,,
+77,BLZ,22.56,,,,,
+78,MLI,22.71,,,,,
+79,GTM,22.9,,,,,
+80,DJI,23.5,,,,,
+81,SEN,23.51,,,,,
+82,GAB,23.86,,,,,
+83,CIV,24.12,,,,,
+84,PRK,24.19,,,,,
+85,NER,25.51,,,,,
+86,MRT,25.6,,,,,
+87,GHA,25.67,,,,,
+88,AGO,26.13,,,,,
+89,BWA,26.41,,,,,
+90,COM,26.57,,,,,
+91,SDN,26.76,,,,,
+92,CPV,26.78,,,,,
+93,BEN,26.8,,,,,
+94,GNQ,27.17,,,,,
+95,IRQ,27.29,,,,,
+96,SOM,27.4,,,,,
+97,STP,27.9,,,,,
+98,ETH,28.16,,,,,
+99,KEN,28.31,,,,,
+100,TGO,28.65,,,,,
+101,MDG,29.22,,,,,
+102,YEM,29.36,,,,,
+103,UGA,29.39,,,,,
+104,RWA,29.45,,,,,
+105,GMB,29.62,,,,,
+106,GIN,29.66,,,,,
+107,COG,29.7,,,,,
+108,LCA,29.84,,,,,
+109,IRL,3.13,,,,,
+110,SWE,3.14,,,,,
+111,GBR,3.21,英國,,Roads and vehicles are well-maintained but scooters and motorcycles often weave in and out of traffic. Be alert when crossing roads as vehicles might not stop at pedestrian crossings.,道路和車輛維護良好，但踏板車和摩托車經常在車流中穿梭。 過馬路時要小心，因為車輛可能不會停在人行橫道上。,https://www.gov.uk/foreign-travel-advice/taiwan/safety-and-security
+112,JPN,3.6,日本,,"交通事故対策
+重要なことは、日本と台湾の交通事情や習慣の違いを明確に意識することであり、以下の点に特に注意してください。
+○自動車の運転席は左側にあるとともに、日本とは逆側の右側通行である。
+○台湾人のドライバーは、歩行者よりも車両を優先する傾向があり、日本と比較すると運転マナーが良くない。
+○信号待ちの際は、交差点内での事故の二次被害に遭うことを防ぐため、車道から少し離れた位置に立つ（車道に近付きすぎない）。
+○時間帯を問わず、青信号で横断歩道を渡る時も周囲の車両をしっかり確認する。
+○路地から自動車やバイクが一時停止することなく飛び出してくることがあるため、路地では周囲の状況をしっかり確認する。
+○スクータータイプのバイクを歩道に駐車することが一般的であり、バイクで歩道を走行することも見られることから、歩道を歩く際にも前後のバイクの走行状況にも注意する。
+○車両を運転する際には、車間距離、右折時の巻き込み、車線変更等には十分に注意する。","交通事故對策
+重要的是要認清日本與台灣在交通條件和風俗習慣上的差異，尤其要注意以下幾點。
+○ 汽車駕駛座在左側，交通在右側，也就是日本的對面。
+○ 台灣司機重車輕行，駕駛禮儀不如日本。
+○ 等紅綠燈時，要稍微遠離道路（不要離道路太近），以免在十字路口發生事故造成二次傷害。
+○ 無論何時，即使在綠燈橫穿人行橫道時，也要仔細檢查周圍的車輛。
+○ 在胡同里一定要注意周圍的環境，因為汽車和摩托車可能會不停地衝出胡同。
+○ 在人行道上停放踏板車式摩托車很常見，在人行道上經常看到有人在人行道上騎行。
+○ 開車時要注意車距、右轉、變道等。",https://www.anzen.mofa.go.jp/info/pcsafetymeasure_008.html
+113,DNK,3.7,,,,,
+114,DEU,3.78,,,,,
+115,FIN,3.89,芬蘭,,"Liikenne on ruuhkaista ja liikennesääntöjen noudattaminen toisinaan vajavaista. Ole tarkkaavainen liikenteessä, etenkin kun ylität teitä.",交通擁堵，有時不遵守交通規則。 注意交通，尤其是過馬路時。,https://um.fi/matkustustiedote/-/c/TW
+116,ISR,3.91,,,,,
+117,ESP,3.91,,,,,
+118,NLD,3.98,荷蘭,,"- Let als voetganger goed op bij het oversteken, want veel bestuurders houden geen rekening met de rechten van voetgangers.
+- Wees bij het uitstappen uit een auto of bus extra alert op de vaak rakelings voorbijrijdende scooters.","- 作為行人，過馬路時要特別注意，因為很多司機沒有考慮到行人的權利。
+- 下汽車或公共汽車時，要格外警惕經常經過的踏板車。",https://www.anwb.nl/vakantie/taiwan/reisvoorbereiding/verkeer
+119,MOZ,30.02,,,,,
+120,CMR,30.18,,,,,
+121,VNM,30.56,,,,,
+122,BFA,31.02,,,,,
+123,TZA,31.12,,,,,
+124,LSO,31.92,,,,,
+125,THA,32.21,,,,,
+126,GNB,32.23,,,,,
+127,TCD,32.43,,,,,
+128,TON,32.95,,,,,
+129,SLE,33.04,,,,,
+130,MWI,33.4,,,,,
+131,SWZ,33.47,,,,,
+132,NAM,34.81,,,,,
+133,COD,34.86,,,,,
+134,BDI,35.46,,,,,
+135,SAU,35.94,,,,,
+136,SSD,36.73,,,,,
+137,CAF,37.72,,,,,
+138,ERI,37.92,,,,,
+139,LBR,38.9,,,,,
+140,VEN,39.02,,,,,
+141,LUX,4.07,,,,,
+142,MLT,4.11,,,,,
+143,EST,4.46,,,,,
+144,AUT,4.87,,,,,
+145,AUS,4.94,澳洲,,"Taxi drivers have sometimes assaulted passengers. However, taxis are usually safe. Use radio taxis or arrange taxis online or through your hotel.",出租車司機有時會毆打乘客。 但是，出租車通常是安全的。 使用無線電出租車或在線或通過您的酒店安排出租車。,https://www.smartraveller.gov.au/destinations/asia/taiwan
+146,ZWE,41.22,,,,,
+147,SVN,5.05,,,,,
+148,FRA,5.13,法國,,"Le réseau autoroutier est sûr et bien entretenu. Le réseau routier secondaire est également bien entretenu, mais il peut néanmoins s’avérer dangereux en raison du relief très escarpé de certaines régions (Hualien, notamment) et des conditions climatiques difficiles.
+Il est possible d’obtenir des informations sur l’état de ces réseaux en consultant le site internet du Directorate General of Highways (en anglais).
+Veiller en toutes circonstances à la sécurité routière (port de la ceinture ou du casque de sécurité). À noter en particulier que les accidents de la circulation touchent dans une très grande majorité les utilisateurs de scooters, ce moyen de transport étant très répandu à Taïwan. En deux roues, les conditions de circulation peuvent en effet être périlleuses en raison des pluies diluviennes, du non-respect du code de la route, de la conduite parfois brutale des conducteurs de taxis et de bus et de la densité de véhicules très élevée en zone urbaine. Les règles de conduite des deux roues sont particulières (port du casque obligatoire, interdiction de tourner à gauche à un croisement, conduite uniquement sur certaines voies de la chaussée, feux tricolores spécifiques) et leur méconnaissance est souvent cause d’accidents.","高速公路網絡安全且維護良好。次要道路網絡也得到良好維護，但由於某些地區（特別是花蓮）地勢非常陡峭且氣候條件惡劣，因此仍然很危險。
+有關這些網絡狀態的信息可通過查閱公路總局網站獲得。
+在任何情況下都確保道路安全（係好安全帶或頭盔）。 特別值得注意的是，絕大多數交通事故都發生在踏板車使用者身上，這種交通工具在台灣非常普遍。 在兩個輪子上，由於暴雨、不遵守高速公路法規、出租車和公共汽車司機有時的粗暴行為以及市區車輛密度非常高，交通狀況確實很危險。 駕駛兩輪車的規則很具體（必須戴頭盔，禁止在路口左轉，只能在道路的某些車道上行駛，特定的紅綠燈）並且忽視它們往往是事故的原因。",https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/taiwan/#complements
+149,MKD,5.15,,,,,
+150,BHR,5.18,,,,,
+151,ITA,5.32,,,,,
+152,CAN,5.34,加拿大,,"Road conditions and road safety can vary greatly throughout Taiwan.
+Driving conditions may be hazardous during the rainy season. Some roads can become impassable due to heavy rain and landslides.
+Motorcycle and scooter drivers don't respect traffic laws. They are extremely reckless.
+- Avoid driving or riding motorcycles in Taiwan, even if you are an experienced motorcyclist
+- Be particularly careful when walking or biking
+- Always use elevated walkways or pedestrian bridges whenever possible","台灣各地的道路狀況和道路安全差異很大。
+雨季的駕駛條件可能很危險。由於大雨和山體滑坡，一些道路可能無法通行。
+摩托車和踏板車司機不遵守交通法規。他們非常魯莽。
+- 避免在台灣駕駛或騎摩托車，即使您是一位經驗豐富的摩托車手
+- 步行或騎自行車時要特別小心
+- 盡可能使用高架人行道或人行天橋",https://travel.gc.ca/destinations/taiwan?keepThis=true&TB_iframe=true&height=650&width=850&caption=Country Advice and Advisories updated in the last 24 hours
+153,CYP,5.75,,,,,
+154,BEL,5.77,比利時,,"
+Sécurité routière
+La circulation est dense dans toutes les grandes villes et le nombre de scooters y accroît le risque d’accident. Le marquage au sol est souvent uniquement en chinois et la signalisation lumineuse peut parfois prêter à confusion pour les étrangers. Les routes sont généralement bien entretenues. Dans la plupart des cas sur les grandes axes, la signalisation routière est en chinois et en anglais.
+Sécurité ferroviaire et bus
+Les transports publics sont bien développés, sûrs et fiables. Le réseau MRT (métro) existe à Taipei et des trains (TGV et normaux) et bus sont disponibles à Taipei et dans le reste de Taiwan.
+Prendre un taxi
+Prendre un taxi est relativement aisé et bon marché. Veillez cela dit à avoir l’adresse de votre destination en chinois. Uber est une alternative intéressante pour ceux et celles qui ne maitrisent pas le mandarin.","
+道路交通安全
+所有主要城市的交通都很擁擠，踏板車的數量增加了發生事故的風險。樓層標記通常只有中文，淺色標牌有時會讓外國人感到困惑。道路通常維護良好。在大多數情況下，在主要道路上，路標都是中文和英文。
+鐵路和公共汽車安全
+公共交通發達，安全可靠。台北有捷運（地鐵）網絡，台北和台灣其他地區都有火車（高速和普通）和公共汽車。
+坐出租車
+乘坐出租車相對容易且便宜。確保上面寫著你的目的地中文地址。對於不會說普通話的人來說，優步是一個有趣的選擇。",https://diplomatie.belgium.be/fr/pays/taiwan/voyager-taiwan-conseils-aux-voyageurs/transport-taiwan
+155,CZE,5.95,捷克,,"Turistická infrastruktura je kvalitní, platí to i o veřejné dopravě, taxislužba je spolehlivá (nelze vyloučit jazykové problémy, ne každý ovládá angličtinu).
+Za rizikovější oblast návštěvy Tchaj-wanu lze považovat silniční dopravu. Místní řidiči jezdí nestandardně, jízdní pruhy nemají žádný praktický význam, všudypřítomné mopedy se nepodrobují žádným pravidlům. Všeobecně je pohyb vozidel nepředvídatelný. Vzhledem k uvedenému se doporučuje všem účastníkům silničního provozu nejvyšší opatrnost!","旅遊基礎設施質量高，公共交通也一樣，出租車服務可靠（不能排除語言問題，不是每個人都會說英語）。
+陸運算得上是訪台比較危險的地方。 當地司機不規範駕駛，車道沒有實際意義，無處不在的輕便摩托車不遵守任何規則。 一般來說，車輛的移動是不可預測的。 鑑於上述情況，建議所有道路使用者格外小心！",https://www.mzv.cz/jnp/cz/encyklopedie_statu/asie/tchaj_wan/cestovani/other.html
+156,SVK,6.07,,,,,
+157,TUR,6.68,,,,,
+158,AZE,6.73,,,,,
+159,DOM,64.6,,,,,
+160,MDA,7.25,,,,,
+161,QAT,7.27,,,,,
+162,VCT,7.41,,,,,
+163,BRN,7.45,,,,,
+164,SRB,7.47,,,,,
+165,MNE,7.64,,,,,
+166,BLR,7.64,,,,,
+167,HUN,7.74,,,,,
+168,BHS,7.75,,,,,
+169,HRV,7.95,,,,,
+170,GRD,7.96,,,,,
+171,LVA,8.05,,,,,
+172,LTU,8.14,,,,,
+173,BRB,8.17,,,,,
+174,PRT,8.2,,,,,
+175,GRC,8.31,,,,,
+176,KOR,8.59,,,,,
+177,CUB,8.89,,,,,
+178,ARE,8.91,,,,,
+179,BGR,9.24,,,,,
+180,TTO,9.33,,,,,
+181,POL,9.38,波蘭,,"Sieć drogowa jest bardzo dobrze rozwinięta i dość dobrze utrzymana. Na Tajwanie obowiązuje ruch prawostronny, a przepisy ruchu drogowego w zasadzie odpowiadają światowym normom. Można mieć jedynie zastrzeżenia do powszechności ich przestrzegania, szczególnie przez kierowców autobusów, taksówek, ciężarówek oraz skuterów. Prowadząc pojazd należy więc zachować szczególną ostrożność.",道路網絡非常發達，維護得相當好。 台灣是靠右行駛，道路規則基本符合世界標準。 人們只能對他們遵守的普遍性持保留態度，尤其是公共汽車、出租車、卡車和小型摩托車的司機。 因此，駕駛車輛時應格外小心。,https://poland.tw/web/tajwan/informacje-dla-podrozujacych
+182,NZL,9.57,,,,,

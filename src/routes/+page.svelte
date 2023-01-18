@@ -12,10 +12,17 @@
 	}
 
 	onMount(async () => {
-    const L = await import('leaflet')
+		const L = await import('leaflet');
 		const map = L.map('map').setView([24.9546286, 121.1913004], 3);
 
-		const info = L.control();
+		map.attributionControl.addAttribution(
+			'Estimated road traffic death rate data &copy; <a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-road-traffic-death-rate-(per-100-000-population)">WHO</a>'
+		);
+		map.attributionControl.addAttribution(
+			'Regions data &copy; <a href="https://github.com/AshKyd/geojson-regions">GeoJSON Regions</a>, <a href="https://www.naturalearthdata.com/about/">Natural Earth</a>'
+		);
+
+		const info = new L.Control();
 
 		info.onAdd = function (map) {
 			this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -24,31 +31,28 @@
 		};
 
 		info.update = function (props) {
-			this._div.innerHTML =
-				`<h3><b>${props?.NAME_ZHT}</b> 對台交通安全資訊</h3>` +
-				(props?.deathRate
-					? '' +
-					  (props?.originalText
-							? '<br/><hr/><b>原文</b><br/>' +
-							  props.originalText.replaceAll('\n', '<br/>') +
-							  '<br/><hr/>'
-							: '') +
-					  (props?.translatedText
-							? '<b>Google Translate 譯文</b><br/>' +
-							  props.translatedText.replaceAll('\n', '<br/>') +
-							  '<br/><hr/>'
-							: '') +
-					  (props?.reference
-							? '資料來源：<a href="' +
-							  encodeURI(props.reference) +
-							  '">' +
-							  props.reference +
-							  '</a><br/>'
-							: '') +
-					  '<br />' +
-					  props.deathRate +
-					  ' 道路交通死亡率估計值 (每十萬人)'
-					: '尚無資料');
+			this._div.innerHTML = props?.NAME_ZHT
+				? `<h2>${props?.NAME_ZHT}</h2>` +
+				  (props?.deathRate
+						? `<div class='death-rate'>${props.deathRate}<span>(十萬人交通事故死亡率估計值)</span></div><hr/>` +
+						  (props?.originalText
+								? `<h3>道安資訊原文</h3><p>${props.originalText.replaceAll('\n', '<br/>')}</p><hr/>`
+								: '') +
+						  (props?.translatedText
+								? `<h3>Google Translate 譯文</h3><p>${props.translatedText.replaceAll(
+										'\n',
+										'<br/>'
+								  )}</p><hr/>`
+								: '') +
+						  (props?.reference
+								? '資料來源：<a href="' +
+								  encodeURI(props.reference) +
+								  '">' +
+								  props.reference +
+								  '</a><br/>'
+								: '')
+						: '尚無資料')
+				: '<h2>請選擇一個國家</h2>';
 		};
 
 		info.addTo(map);
@@ -109,6 +113,7 @@
 			info.isLock = !info.isLock;
 			const layer = e.target;
 			info.update(layer.feature.properties);
+			map.fitBounds(e.target.getBounds());
 		}
 
 		function onEachFeature(feature, layer) {
@@ -120,12 +125,24 @@
 			info.update();
 		}
 
-		map.attributionControl.addAttribution(
-			'Estimated road traffic death rate data &copy; <a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-road-traffic-death-rate-(per-100-000-population)">WHO</a>'
-		);
-		map.attributionControl.addAttribution(
-			'Regions data &copy; <a href="https://github.com/AshKyd/geojson-regions">GeoJSON Regions</a>, <a href="https://www.naturalearthdata.com/about/">Natural Earth</a>'
-		);
+
+    // change layout for mobile or desktop
+		const mql = window.matchMedia('only screen and (max-device-width: 480px)');
+
+		function changePosition(matches) {
+			if (matches) {
+				// mobile
+				map.attributionControl.setPosition('topright');
+				info.setPosition('bottomright');
+			} else {
+				// desktop
+				map.attributionControl.setPosition('bottomright');
+				info.setPosition('topright');
+			}
+		}
+
+		mql.addEventListener('change', (event) => changePosition(event.matches));
+		changePosition(mql.matches);
 	});
 </script>
 

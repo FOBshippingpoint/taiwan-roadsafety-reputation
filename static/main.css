@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
 	padding: 0;
 	margin: 0;
@@ -10,20 +11,36 @@ body,
 }
 .info {
 	padding: 6px 8px;
-	max-width: 80vw;
-  max-height: 90vh;
-  overflow: scroll;
-	font: 14px/16px Arial, Helvetica, sans-serif;
+	overflow: scroll;
+	max-width: 40vw;
+	max-height: 90vh;
+	/* font: 14px/16px Arial, Helvetica, sans-serif; */
+	font-family: 'Noto Sans TC', sans-serif;
 	background: white;
 	background: rgba(255, 255, 255, 0.8);
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
+}
+@media only screen and (max-device-width: 480px) {
+	.info {
+		max-width: 91vw;
+		max-height: 70vh;
+	}
+}
+.info h2 {
+	margin-top: 0px;
 }
 .info h3 {
 	margin: 0 0 5px;
 	color: #777;
 }
 .info hr {
-	border-top: 1px dotted #8c8b8b;
-	border-bottom: 1px dotted #fff;
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.death-rate span {
+	margin-left: 2px;
+	font-size: 0.8em;
 }

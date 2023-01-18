@@ -1,6 +1,8 @@
 import pandas as pd
 from pathlib import Path
 
+print('start: 2_clean_death_rate')
+
 data_path = Path('../data')
 
 df_death_rate = pd.read_csv(data_path / 'death_rate.csv')
@@ -18,3 +20,5 @@ with open(data_path / 'reputation.csv', mode='w', newline='\n', encoding='utf-8'
 
 with open(data_path / 'reputation.json', 'w', encoding='utf-8') as f:
     df.to_json(f, orient='records', force_ascii=False)
+
+print('done')

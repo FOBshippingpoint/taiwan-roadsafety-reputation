@@ -24,6 +24,7 @@ Leaflet 製作的互動式世界地圖，蒐羅世界各國對於台灣交通安
 ## 新增國家
 
 1. 開啟[全球對台道安聲望試算表](https://docs.google.com/spreadsheets/d/10wiipUnJaQVOlCr5W_gl_t3MUNgUh6FKS79rZg6ROE0/edit#gid=0)，裡面有六個欄位：
+
 ```text
 ADM0_A3: ISO_A3國碼
 country: 中文國名，方便自己看的（未顯示）
@@ -32,10 +33,11 @@ original_text: 對台道安資訊原文
 translated_text: 對台道安資訊譯文
 reference: 資訊出處
 ```
-2. 搜尋欲新增國家的ISO 3166-1 alpha-3的國碼並填入ADM0_A3欄
-3. 尋找該國政府或可靠機構所提供的臺灣旅遊相關資訊填入網址至reference
-4. 在originalText填入對「交通安全」相關的原文資訊
-5. 在translatedText填入Google翻譯產生的文字（如果願意自行翻譯，請在後面該欄最末註記）
+
+2. 搜尋欲新增國家的 ISO 3166-1 alpha-3 的國碼並填入 ADM0_A3 欄
+3. 尋找該國政府或可靠機構所提供的臺灣旅遊相關資訊填入網址至 reference
+4. 在 originalText 填入對「交通安全」相關的原文資訊
+5. 在 translatedText 填入 Google 翻譯產生的文字（如果願意自行翻譯，請在後面該欄最末註記）
 
 ---
 
